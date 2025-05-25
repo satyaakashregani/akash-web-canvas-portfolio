@@ -8,6 +8,7 @@ const Skills = () => {
     'React',
     'Python',
     'JavaScript',
+    'C Programming',
     'Database Management',
     'Full-Stack Development',
     'HTML/CSS',
