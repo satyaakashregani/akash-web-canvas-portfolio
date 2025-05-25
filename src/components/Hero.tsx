@@ -38,10 +38,6 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button onClick={() => scrollToSection('contact')} size="lg">
-              <Mail className="mr-2 h-4 w-4" />
-              Get In Touch
-            </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="https://www.linkedin.com/in/satyaakashregani" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
