@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ChevronDown, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,16 +15,6 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8 relative">
-            <div className="w-48 h-48 mx-auto mb-8 relative">
-              <div className="w-full h-full rounded-full bg-gradient-to-r from-primary to-secondary p-1">
-                <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                  <span className="text-6xl font-bold text-primary">SR</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6">
             Satya Akash <span className="text-primary">Regani</span>
           </h1>
